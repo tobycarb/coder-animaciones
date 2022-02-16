@@ -1,1 +1,179 @@
+@media  screen and (max-width:480px){
+    body {background-image: url(/imagenes/Cool\ Sky.jpg)}
+    #conteiner {
+        min-height: 1000px;
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "parrafo parrafo parrafo"
+        "stella stella stella"
+        "julia julia julia"
+        "josefina josefina josefina"
+        "mapa mapa mapa"
+        
+        "footer footer footer";
+        grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr,;
+        grid-template-columns: 1fr, 1fr, 1fr;}
+        .inicio {grid-area: header;
+        border: 1px solid black;}
+        .cur {font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            margin-top: 50px;
+            width: 100%;
+            height: 20px
+
+         
+           
+            
+            ;
+            font-style: oblique;
+            color: black;
+            text-transform: uppercase;
+            background-color: rgba(95, 96, 97, 0.322)}
+            #home
+           {font-family: 'Arvo', serif;
+            font-size: 100px;
+            text-align: center;
+            color:rgb(72, 33, 128);
+            background-color: rgba(72, 161, 245, 0.159);
+        display: flex;
+        justify-content: center;}
+        header {background-color: rgba(231, 7, 7, 0);min-height: 440px;
+            width: 100%;
+        }
+         
+         /* barra de navegacion */
+         .barra {display: block;
+            
+        width: 100%;}
+         .barra li {
+             display: block;
+             text-align:center ;
+             font-family: fantasy;
+             font-size: 30px;
+             margin;
+         }
+         .barra a {text-decoration: none;
+            text-transform: uppercase;
+            font-style: italic;
+            text-align: center;
+        }
+             .barra {background-color: rgba(211, 206, 206, 0.568);
+            width: 100%;}
+            .icono {
+                display:grid;
+                justify-content: center;
+        
+                 background-color: rgba(249, 248, 250, 0.289);}
+            
+        }
+        .parrafo {grid-area: parrafo;
+            border: 1px solid black;}
+        .chica1 {grid-area: stella;
+            border: 1px solid black;}
+        .chica2 {grid-area: julia;
+            border: 1px solid black;}
+        .chica3{grid-area: josefina;
+            border: 1px solid black;}
+        .mapa{grid-area: mapa;
+            border: 1px solid black;}
+            h2 {text-align: center;}
+        .formulario {grid-area: formulario;
+            border: 1px solid black;}
+
+        .final{grid-area: footer;
+            border: 1px solid black;}
+            .contacto {grid-area: footer;
+                border: 1px solid black;}
+                footer {background-image: url(/imagenes/Deep\ Space.jpg); 
+                    padding-top: 1px;}
+                    footer h2 {text-align: center;
+                    font-size: 35px;
+                    color: darkkhaki;
+                text-decoration: underline;}
+                footer h4 {color: darkkhaki;}
+                .boca {display: inline-block;
+                    margin-left: 5px;}
+                    @media screen and (min-width:768px) {
+                        .fotosno {
+                            margin-left: 375px;
+                            border-style: ridge;
+                        }
+                        h3 {text-align: center;
+                        text-transform: uppercase;}
+                        .listas {
+                            margin-left: 375px;
+                            font-size: 25px;
+                            text-transform: capitalize;
+                        }
+                        .ubit {text-align: center;}
+                        .maps {
+                            margin-left: 375px;
+                            
+                           
+                        }
+                        body {background-image: url(/imagenes/Cool\ Sky.jpg);}
+                        #home
+     {font-family: 'Arvo', serif;
+        font-size: 100px;
+        text-align: center;
+        color:rgb(72, 33, 128);
+        background-color: rgba(72, 161, 245, 0.159);
+    display: flex;
+    justify-content: center;
+    ;}
+     /* fin titulo */
+     /* span */
+    
+        
+     /* header */
+     header {background-color: rgba(231, 7, 7, 0);
+        display: grid;
+    }
+     
+     /* barra de navegacion */
+     .barra {display: inline-block;
+        ;
+    width: 100%;}
+     .barra li {
+         display: inline-block;
+         
+         font-family: fantasy;
+         font-size: 30px;
+         ;
+     }
+     .barra a {text-decoration: none;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+         .barra {background-color: rgba(211, 206, 206, 0.568);
+        height: 55px;
+        
+    }
+    .barra a:hover {background-color: rgba(35, 70, 77, 0.178);
+        padding-top:14px;
+        margin-top: ;
+        padding-left: 1px;
+        padding-right: 5px;
+    border-style: ridge;}
+    
+    /* fin  */
+         /* logotipo */
+        .icono {
+            display:grid;
+            justify-content: center;
+    
+             background-color: rgba(249, 248, 250, 0.289);}
+             footer {background-image: url(/imagenes/Deep\ Space.jpg); 
+                padding-top: 1px;}
+                footer h2 {text-align: center;
+                font-size: 35px;
+                color: darkkhaki;
+            text-decoration: underline;}
+            footer h4 {color: darkkhaki;}
+            .boca {display: inline-block;
+                padding-left: 235px;}
+                img{width: 65%;
+                border-style: groove;
+            ;}
 
