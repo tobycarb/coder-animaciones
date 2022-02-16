@@ -38,8 +38,8 @@
         }
         h1 {border: 1px solid blueviolet;
             border-radius: 15%;
-            padding: 100p
-        ;}
+            padding: 100p;
+        }
         /* icono */
         .icono {
             display:flex;
@@ -143,7 +143,7 @@ background-size: cover;}
                     
                 }
                 @media screen and (min-width:768px) {
-                    body { background-image: url(/imagenes/Deep\ Space.jpg);}
+                    body { background-image: linear-gradient(to left, rgb(61, 59, 59),black);}
                     h1,h2,h3,h4,fieldset {color: rgb(243, 11, 127)}
                     a,p{color: antiquewhite;}
                 h2 {text-decoration: underline;}
@@ -179,9 +179,17 @@ background-size: cover;}
                         display:grid ;
                        
                     }
-                    h1 {border: 1px solid blueviolet;
-                        border-radius: 15%;
-                        padding: 100p
+                    h1 {
+                        padding: ;
+                        animation-name: efecto;
+                        animation-iteration-count:4 ;
+                        animation-duration: 2s;
+                        animation-direction: alternate
+                        ;}
+                        @keyframes efecto{
+                        0% {font-size: 70px}
+                        100% {font-size: 100px}
+                    ;}
                     ;}
                     /* icono */
                     .icono {
@@ -190,6 +198,7 @@ background-size: cover;}
                         justify-content: center;
                          background-color:  rgb(243, 11, 127);
                         border-radius: 100%;
+                        
                        
                     ;}
                     .a123 {display: flex;
@@ -284,7 +293,16 @@ background-size: cover;}
                             footer h2 {text-align: center;
                             font-size: 35px;
                             color: darkkhaki;
-                        text-decoration: underline;}
+                        text-decoration: underline;
+                        animation-name: efecto;
+                        animation-iteration-count: ;
+                        animation-duration: 10s;
+                        animation-direction: alternate-reverse
+                        ;}
+                        @keyframes efecto{
+                        0% {font-size: }
+                        100% {font-size: 50px }
+                    ;}}
                         footer h4 {color: darkkhaki; font-size: 20px;}
                         .final {display: flex;
                             justify-content: space-around;
