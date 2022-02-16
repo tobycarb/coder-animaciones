@@ -1,0 +1,38 @@
+nav.cursonera {
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(136, 135, 135, 0.281);
+    width: 50%;
+    margin-left: 339px;
+  }
+  .cursonera a {text-decoration: none;
+    text-transform: uppercase;
+    
+}
+  h2 {
+      text-align: center;
+      font-size: 35px;
+      text-decoration: underline;
+      text-transform: capitalize;
+
+  }
+  .fotosg {
+      border-style: groove;
+      margin-left: 275px;
+      
+  }
+  .cursonera a:hover {
+      background-color: tomato;
+      border-style: outset;
+  }
+  h4 {font-size: 22px;}
+ body
+  {font-family: url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');}
+p {text-align: center;
+margin-left: 275px;
+margin-right: 275px;
+font-size: 20px;
+font-family: cursive;
+font-style: oblique;}
+  

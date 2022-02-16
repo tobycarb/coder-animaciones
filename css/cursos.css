@@ -1,0 +1,10 @@
+.contenido  {list-style: circle;
+font-size: 20px;
+width: 30%;
+background-color: rgba(220, 20, 60, 0.356);}
+h2 {font-size: 35px;
+text-decoration: underline;}
+.content  {font-size: 29px;
+margin: 0;
+text-decoration: underline;
+text-transform: capitalize;}
